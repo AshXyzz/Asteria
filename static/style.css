@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0668aa;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contents {
+    font-family: "Londrina Sketch", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    background-color: rgb(213, 191, 44);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Jarak antara profil */
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+.content {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: rgb(213, 191, 44);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(114, 112, 112, 0.221);
+    margin-bottom: 20px; /* Jarak antara profil */
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.profile {
+    display: flex; /* Mengatur flexbox untuk tata letak */
+    align-items: center; /* Menjajarkan item secara vertikal */
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px; /* Spasi antara foto dan teks */
+}
+
+.info {
+    flex: 1; /* Memungkinkan informasi mengambil ruang tersisa */
+}
+
+h2 {
+    color: #2b2828;
+}
